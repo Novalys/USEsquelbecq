@@ -36,6 +36,7 @@
             this.labelPosteUtilisateur = new System.Windows.Forms.Label();
             this.labelAdresseUtilisateur = new System.Windows.Forms.Label();
             this.labelRoleUtilisateur = new System.Windows.Forms.Label();
+            this.textBoxNomUtilisateur = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // labelNomUtilisateur
@@ -108,12 +109,20 @@
             this.labelRoleUtilisateur.TabIndex = 6;
             this.labelRoleUtilisateur.Text = "Rôle";
             // 
+            // textBoxNomUtilisateur
+            // 
+            this.textBoxNomUtilisateur.Location = new System.Drawing.Point(154, 40);
+            this.textBoxNomUtilisateur.Name = "textBoxNomUtilisateur";
+            this.textBoxNomUtilisateur.Size = new System.Drawing.Size(100, 20);
+            this.textBoxNomUtilisateur.TabIndex = 7;
+            // 
             // FormAjouterUtilisateur
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(226)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(304, 561);
+            this.Controls.Add(this.textBoxNomUtilisateur);
             this.Controls.Add(this.labelRoleUtilisateur);
             this.Controls.Add(this.labelAdresseUtilisateur);
             this.Controls.Add(this.labelPosteUtilisateur);
@@ -138,5 +147,6 @@
         private System.Windows.Forms.Label labelPosteUtilisateur;
         private System.Windows.Forms.Label labelAdresseUtilisateur;
         private System.Windows.Forms.Label labelRoleUtilisateur;
+        private System.Windows.Forms.TextBox textBoxNomUtilisateur;
     }
 }
