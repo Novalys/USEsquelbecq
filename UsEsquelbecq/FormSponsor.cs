@@ -19,12 +19,15 @@ namespace UsEsquelbecq
 
         private void buttonAjouterSponsor_Click(object sender, EventArgs e)
         {
-
+            FormAjouterSponsor formAjoutSpon = new FormAjouterSponsor();
+            formAjoutSpon.ShowDialog();
         }
 
         private void buttonModifierSponsor_Click(object sender, EventArgs e)
         {
-
+            FormAjouterSponsor formModSpon = new FormAjouterSponsor();
+            formModSpon.Controls["buttonAjouterSponsor"].Text = "Modifier";
+            formModSpon.ShowDialog();
         }
 
         private void buttonSupprimerSponsor_Click(object sender, EventArgs e)

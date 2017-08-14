@@ -10,19 +10,19 @@ using System.Windows.Forms;
 
 namespace UsEsquelbecq
 {
-    public partial class FormAjouterUtilisateur : Form
+    public partial class FormAjouterContrat : Form
     {
-        public FormAjouterUtilisateur()
+        public FormAjouterContrat()
         {
             InitializeComponent();
         }
 
-        private void buttonAnnulerUtilisateur_Click(object sender, EventArgs e)
+        private void buttonAnnulerContrat_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        private void buttonAjouterUtilisateur_Click(object sender, EventArgs e)
+        private void buttonAjouterContrat_Click(object sender, EventArgs e)
         {
 
         }

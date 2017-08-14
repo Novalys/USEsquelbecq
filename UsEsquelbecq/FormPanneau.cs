@@ -19,12 +19,15 @@ namespace UsEsquelbecq
 
         private void buttonAjouterPanneau_Click(object sender, EventArgs e)
         {
-
+            FormAjouterPanneau formAjoutPan = new FormAjouterPanneau();
+            formAjoutPan.ShowDialog();
         }
 
         private void buttonModifierPanneau_Click(object sender, EventArgs e)
         {
-
+            FormAjouterPanneau formModPan = new FormAjouterPanneau();
+            formModPan.Controls["buttonAjouterPanneau"].Text = "Modifier";
+            formModPan.ShowDialog();
         }
 
         private void buttonSupprimerPanneau_Click(object sender, EventArgs e)

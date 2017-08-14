@@ -19,12 +19,15 @@ namespace UsEsquelbecq
 
         private void buttonAjouterEmplacement_Click(object sender, EventArgs e)
         {
-
+            FormAjouterEmplacement formAjoutEmp = new FormAjouterEmplacement();
+            formAjoutEmp.ShowDialog();
         }
 
         private void buttonModifierEmplacement_Click(object sender, EventArgs e)
         {
-
+            FormAjouterEmplacement formModEmp = new FormAjouterEmplacement();
+            formModEmp.Controls["buttonAjouterEmplacement"].Text = "Modifier";
+            formModEmp.ShowDialog();
         }
 
         private void buttonSupprimerEmplacement_Click(object sender, EventArgs e)

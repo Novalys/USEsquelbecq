@@ -19,12 +19,15 @@ namespace UsEsquelbecq
 
         private void buttonAjouterContrat_Click(object sender, EventArgs e)
         {
-
+            FormAjouterContrat formAjoutCont = new FormAjouterContrat();
+            formAjoutCont.ShowDialog();
         }
 
         private void buttonModifierContrat_Click(object sender, EventArgs e)
         {
-
+            FormAjouterContrat formModCont = new FormAjouterContrat();
+            formModCont.Controls["buttonAjouterContrat"].Text = "Modifier";
+            formModCont.ShowDialog();
         }
 
         private void buttonSupprimerContrat_Click(object sender, EventArgs e)

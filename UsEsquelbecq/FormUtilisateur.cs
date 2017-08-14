@@ -19,12 +19,15 @@ namespace UsEsquelbecq
 
         private void buttonAjouterUtilisateur_Click(object sender, EventArgs e)
         {
-
+            FormAjouterUtilisateur formAjoutUti = new FormAjouterUtilisateur();
+            formAjoutUti.ShowDialog();
         }
 
         private void buttonModifierUtilisateur_Click(object sender, EventArgs e)
         {
-
+            FormAjouterUtilisateur formModUti = new FormAjouterUtilisateur();
+            formModUti.Controls["buttonAjouterUtilisateur"].Text = "Modifier";
+            formModUti.ShowDialog();
         }
 
         private void buttonSupprimerUtilisateur_Click(object sender, EventArgs e)

@@ -17,6 +17,12 @@ namespace UsEsquelbecq
             InitializeComponent();
         }
 
+        private void buttonEvenement_Click(object sender, EventArgs e)
+        {
+            FormEvenement formEve = new FormEvenement();
+            formEve.ShowDialog();
+        }
+
         private void buttonUtilisateur_Click(object sender, EventArgs e)
         {
             FormUtilisateur formUti = new FormUtilisateur();
