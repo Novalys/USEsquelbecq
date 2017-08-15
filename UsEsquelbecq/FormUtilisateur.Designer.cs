@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormUtilisateur));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.pictureBoxLogoUtilisateur = new System.Windows.Forms.PictureBox();
             this.labelUtilisateurs = new System.Windows.Forms.Label();
             this.dataGridViewUtilisateur = new System.Windows.Forms.DataGridView();
@@ -45,6 +45,7 @@
             this.buttonModifierUtilisateur = new System.Windows.Forms.Button();
             this.buttonSupprimerUtilisateur = new System.Windows.Forms.Button();
             this.buttonRetourUtilisateur = new System.Windows.Forms.Button();
+            this.buttonReferent = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogoUtilisateur)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewUtilisateur)).BeginInit();
             this.SuspendLayout();
@@ -72,14 +73,14 @@
             // dataGridViewUtilisateur
             // 
             this.dataGridViewUtilisateur.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(58)))), ((int)(((byte)(129)))));
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewUtilisateur.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewUtilisateur.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridViewUtilisateur.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewUtilisateur.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ColumnIdUtilisateur,
@@ -214,12 +215,23 @@
             this.buttonRetourUtilisateur.UseVisualStyleBackColor = true;
             this.buttonRetourUtilisateur.Click += new System.EventHandler(this.buttonRetourUtilisateur_Click);
             // 
+            // buttonReferent
+            // 
+            this.buttonReferent.Location = new System.Drawing.Point(1160, 160);
+            this.buttonReferent.Name = "buttonReferent";
+            this.buttonReferent.Size = new System.Drawing.Size(100, 25);
+            this.buttonReferent.TabIndex = 15;
+            this.buttonReferent.Text = "Référents";
+            this.buttonReferent.UseVisualStyleBackColor = true;
+            this.buttonReferent.Click += new System.EventHandler(this.buttonReferent_Click);
+            // 
             // FormUtilisateur
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(226)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(1284, 761);
+            this.Controls.Add(this.buttonReferent);
             this.Controls.Add(this.buttonRetourUtilisateur);
             this.Controls.Add(this.buttonSupprimerUtilisateur);
             this.Controls.Add(this.buttonModifierUtilisateur);
@@ -257,5 +269,6 @@
         private System.Windows.Forms.Button buttonModifierUtilisateur;
         private System.Windows.Forms.Button buttonSupprimerUtilisateur;
         private System.Windows.Forms.Button buttonRetourUtilisateur;
+        private System.Windows.Forms.Button buttonReferent;
     }
 }

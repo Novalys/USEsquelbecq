@@ -71,6 +71,12 @@
     <Compile Include="FormAjouterPanneau.Designer.cs">
       <DependentUpon>FormAjouterPanneau.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormAjouterReferent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAjouterReferent.Designer.cs">
+      <DependentUpon>FormAjouterReferent.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormAjouterSponsor.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -119,6 +125,12 @@
     <Compile Include="FormPanneau.Designer.cs">
       <DependentUpon>FormPanneau.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormReferent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReferent.Designer.cs">
+      <DependentUpon>FormReferent.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormSponsor.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -151,6 +163,9 @@
     <EmbeddedResource Include="FormAjouterPanneau.resx">
       <DependentUpon>FormAjouterPanneau.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormAjouterReferent.resx">
+      <DependentUpon>FormAjouterReferent.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormAjouterSponsor.resx">
       <DependentUpon>FormAjouterSponsor.cs</DependentUpon>
     </EmbeddedResource>
@@ -174,6 +189,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormPanneau.resx">
       <DependentUpon>FormPanneau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormReferent.resx">
+      <DependentUpon>FormReferent.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormSponsor.resx">
       <DependentUpon>FormSponsor.cs</DependentUpon>

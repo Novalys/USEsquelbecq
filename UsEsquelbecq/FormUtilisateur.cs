@@ -40,5 +40,11 @@ namespace UsEsquelbecq
         {
             this.Close();
         }
+
+        private void buttonReferent_Click(object sender, EventArgs e)
+        {
+            FormReferent formRef = new FormReferent();
+            formRef.ShowDialog();
+        }
     }
 }
