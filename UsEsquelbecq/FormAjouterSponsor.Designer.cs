@@ -34,19 +34,16 @@
             this.labelAdresseSponsor = new System.Windows.Forms.Label();
             this.labelContactSponsor = new System.Windows.Forms.Label();
             this.labelReferentSponsor = new System.Windows.Forms.Label();
-            this.labelContratSponsor = new System.Windows.Forms.Label();
-            this.labelDatePaiementSponsor = new System.Windows.Forms.Label();
-            this.labelMontantSponsor = new System.Windows.Forms.Label();
             this.textBoxNomSponsor = new System.Windows.Forms.TextBox();
             this.textBoxAdresseSponsor = new System.Windows.Forms.TextBox();
-            this.textBoxMontantSponsor = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.dateTimePickerSponsor = new System.Windows.Forms.DateTimePicker();
+            this.comboBoxResponsableSponsor = new System.Windows.Forms.ComboBox();
+            this.comboBoxContactSponsor = new System.Windows.Forms.ComboBox();
+            this.comboBoxReferentSponsor = new System.Windows.Forms.ComboBox();
             this.buttonAnnulerSponsor = new System.Windows.Forms.Button();
             this.buttonAjouterSponsor = new System.Windows.Forms.Button();
+            this.buttonAjouterUtilisateurSponsor = new System.Windows.Forms.Button();
+            this.buttonAjouterContactSponsor = new System.Windows.Forms.Button();
+            this.buttonAjouterReferentSponsor = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // labelNomSponsor
@@ -99,99 +96,47 @@
             this.labelReferentSponsor.TabIndex = 4;
             this.labelReferentSponsor.Text = "Référent";
             // 
-            // labelContratSponsor
-            // 
-            this.labelContratSponsor.AutoSize = true;
-            this.labelContratSponsor.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelContratSponsor.Location = new System.Drawing.Point(20, 340);
-            this.labelContratSponsor.Name = "labelContratSponsor";
-            this.labelContratSponsor.Size = new System.Drawing.Size(61, 19);
-            this.labelContratSponsor.TabIndex = 5;
-            this.labelContratSponsor.Text = "Contrat";
-            // 
-            // labelDatePaiementSponsor
-            // 
-            this.labelDatePaiementSponsor.AutoSize = true;
-            this.labelDatePaiementSponsor.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelDatePaiementSponsor.Location = new System.Drawing.Point(20, 400);
-            this.labelDatePaiementSponsor.Name = "labelDatePaiementSponsor";
-            this.labelDatePaiementSponsor.Size = new System.Drawing.Size(133, 19);
-            this.labelDatePaiementSponsor.TabIndex = 6;
-            this.labelDatePaiementSponsor.Text = "Date de paiement";
-            // 
-            // labelMontantSponsor
-            // 
-            this.labelMontantSponsor.AutoSize = true;
-            this.labelMontantSponsor.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelMontantSponsor.Location = new System.Drawing.Point(20, 460);
-            this.labelMontantSponsor.Name = "labelMontantSponsor";
-            this.labelMontantSponsor.Size = new System.Drawing.Size(123, 19);
-            this.labelMontantSponsor.TabIndex = 7;
-            this.labelMontantSponsor.Text = "Montant à payer";
-            // 
             // textBoxNomSponsor
             // 
             this.textBoxNomSponsor.Location = new System.Drawing.Point(174, 40);
             this.textBoxNomSponsor.Name = "textBoxNomSponsor";
-            this.textBoxNomSponsor.Size = new System.Drawing.Size(121, 20);
+            this.textBoxNomSponsor.Size = new System.Drawing.Size(160, 20);
             this.textBoxNomSponsor.TabIndex = 8;
             // 
             // textBoxAdresseSponsor
             // 
             this.textBoxAdresseSponsor.Location = new System.Drawing.Point(174, 160);
             this.textBoxAdresseSponsor.Name = "textBoxAdresseSponsor";
-            this.textBoxAdresseSponsor.Size = new System.Drawing.Size(121, 20);
+            this.textBoxAdresseSponsor.Size = new System.Drawing.Size(160, 20);
             this.textBoxAdresseSponsor.TabIndex = 9;
             // 
-            // textBoxMontantSponsor
+            // comboBoxResponsableSponsor
             // 
-            this.textBoxMontantSponsor.Location = new System.Drawing.Point(174, 460);
-            this.textBoxMontantSponsor.Name = "textBoxMontantSponsor";
-            this.textBoxMontantSponsor.Size = new System.Drawing.Size(121, 20);
-            this.textBoxMontantSponsor.TabIndex = 10;
+            this.comboBoxResponsableSponsor.FormattingEnabled = true;
+            this.comboBoxResponsableSponsor.Location = new System.Drawing.Point(174, 100);
+            this.comboBoxResponsableSponsor.Name = "comboBoxResponsableSponsor";
+            this.comboBoxResponsableSponsor.Size = new System.Drawing.Size(160, 21);
+            this.comboBoxResponsableSponsor.TabIndex = 11;
             // 
-            // comboBox1
+            // comboBoxContactSponsor
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(174, 100);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 11;
+            this.comboBoxContactSponsor.FormattingEnabled = true;
+            this.comboBoxContactSponsor.Location = new System.Drawing.Point(174, 220);
+            this.comboBoxContactSponsor.Name = "comboBoxContactSponsor";
+            this.comboBoxContactSponsor.Size = new System.Drawing.Size(160, 21);
+            this.comboBoxContactSponsor.TabIndex = 12;
             // 
-            // comboBox2
+            // comboBoxReferentSponsor
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(174, 220);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 21);
-            this.comboBox2.TabIndex = 12;
-            // 
-            // comboBox3
-            // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(174, 280);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(121, 21);
-            this.comboBox3.TabIndex = 13;
-            // 
-            // comboBox4
-            // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(174, 340);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(121, 21);
-            this.comboBox4.TabIndex = 14;
-            // 
-            // dateTimePickerSponsor
-            // 
-            this.dateTimePickerSponsor.Location = new System.Drawing.Point(174, 400);
-            this.dateTimePickerSponsor.Name = "dateTimePickerSponsor";
-            this.dateTimePickerSponsor.Size = new System.Drawing.Size(121, 20);
-            this.dateTimePickerSponsor.TabIndex = 15;
+            this.comboBoxReferentSponsor.FormattingEnabled = true;
+            this.comboBoxReferentSponsor.Location = new System.Drawing.Point(174, 280);
+            this.comboBoxReferentSponsor.Name = "comboBoxReferentSponsor";
+            this.comboBoxReferentSponsor.Size = new System.Drawing.Size(160, 21);
+            this.comboBoxReferentSponsor.TabIndex = 13;
             // 
             // buttonAnnulerSponsor
             // 
-            this.buttonAnnulerSponsor.Location = new System.Drawing.Point(55, 548);
+            this.buttonAnnulerSponsor.Location = new System.Drawing.Point(85, 368);
             this.buttonAnnulerSponsor.Name = "buttonAnnulerSponsor";
             this.buttonAnnulerSponsor.Size = new System.Drawing.Size(100, 25);
             this.buttonAnnulerSponsor.TabIndex = 16;
@@ -201,7 +146,7 @@
             // 
             // buttonAjouterSponsor
             // 
-            this.buttonAjouterSponsor.Location = new System.Drawing.Point(164, 548);
+            this.buttonAjouterSponsor.Location = new System.Drawing.Point(194, 368);
             this.buttonAjouterSponsor.Name = "buttonAjouterSponsor";
             this.buttonAjouterSponsor.Size = new System.Drawing.Size(100, 25);
             this.buttonAjouterSponsor.TabIndex = 17;
@@ -209,36 +154,63 @@
             this.buttonAjouterSponsor.UseVisualStyleBackColor = true;
             this.buttonAjouterSponsor.Click += new System.EventHandler(this.buttonAjouterSponsor_Click);
             // 
+            // buttonAjouterUtilisateurSponsor
+            // 
+            this.buttonAjouterUtilisateurSponsor.Location = new System.Drawing.Point(341, 100);
+            this.buttonAjouterUtilisateurSponsor.Name = "buttonAjouterUtilisateurSponsor";
+            this.buttonAjouterUtilisateurSponsor.Size = new System.Drawing.Size(21, 21);
+            this.buttonAjouterUtilisateurSponsor.TabIndex = 18;
+            this.buttonAjouterUtilisateurSponsor.Text = "+";
+            this.buttonAjouterUtilisateurSponsor.UseVisualStyleBackColor = true;
+            this.buttonAjouterUtilisateurSponsor.Click += new System.EventHandler(this.buttonAjouterUtilisateurSponsor_Click);
+            // 
+            // buttonAjouterContactSponsor
+            // 
+            this.buttonAjouterContactSponsor.Location = new System.Drawing.Point(341, 220);
+            this.buttonAjouterContactSponsor.Name = "buttonAjouterContactSponsor";
+            this.buttonAjouterContactSponsor.Size = new System.Drawing.Size(21, 21);
+            this.buttonAjouterContactSponsor.TabIndex = 19;
+            this.buttonAjouterContactSponsor.Text = "+";
+            this.buttonAjouterContactSponsor.UseVisualStyleBackColor = true;
+            this.buttonAjouterContactSponsor.Click += new System.EventHandler(this.buttonAjouterContactSponsor_Click);
+            // 
+            // buttonAjouterReferentSponsor
+            // 
+            this.buttonAjouterReferentSponsor.Location = new System.Drawing.Point(341, 280);
+            this.buttonAjouterReferentSponsor.Name = "buttonAjouterReferentSponsor";
+            this.buttonAjouterReferentSponsor.Size = new System.Drawing.Size(21, 21);
+            this.buttonAjouterReferentSponsor.TabIndex = 20;
+            this.buttonAjouterReferentSponsor.Text = "+";
+            this.buttonAjouterReferentSponsor.UseVisualStyleBackColor = true;
+            this.buttonAjouterReferentSponsor.Click += new System.EventHandler(this.buttonAjouterReferentSponsor_Click);
+            // 
             // FormAjouterSponsor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(226)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(324, 621);
+            this.ClientSize = new System.Drawing.Size(384, 441);
+            this.Controls.Add(this.buttonAjouterReferentSponsor);
+            this.Controls.Add(this.buttonAjouterContactSponsor);
+            this.Controls.Add(this.buttonAjouterUtilisateurSponsor);
             this.Controls.Add(this.buttonAjouterSponsor);
             this.Controls.Add(this.buttonAnnulerSponsor);
-            this.Controls.Add(this.dateTimePickerSponsor);
-            this.Controls.Add(this.comboBox4);
-            this.Controls.Add(this.comboBox3);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.textBoxMontantSponsor);
+            this.Controls.Add(this.comboBoxReferentSponsor);
+            this.Controls.Add(this.comboBoxContactSponsor);
+            this.Controls.Add(this.comboBoxResponsableSponsor);
             this.Controls.Add(this.textBoxAdresseSponsor);
             this.Controls.Add(this.textBoxNomSponsor);
-            this.Controls.Add(this.labelMontantSponsor);
-            this.Controls.Add(this.labelDatePaiementSponsor);
-            this.Controls.Add(this.labelContratSponsor);
             this.Controls.Add(this.labelReferentSponsor);
             this.Controls.Add(this.labelContactSponsor);
             this.Controls.Add(this.labelAdresseSponsor);
             this.Controls.Add(this.labelResponsableSponsor);
             this.Controls.Add(this.labelNomSponsor);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MaximumSize = new System.Drawing.Size(340, 660);
-            this.MinimumSize = new System.Drawing.Size(340, 660);
+            this.MaximumSize = new System.Drawing.Size(400, 480);
+            this.MinimumSize = new System.Drawing.Size(400, 480);
             this.Name = "FormAjouterSponsor";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "US Esquelbecq";
+            this.Text = "Ajouter un sponsor";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -251,18 +223,15 @@
         private System.Windows.Forms.Label labelAdresseSponsor;
         private System.Windows.Forms.Label labelContactSponsor;
         private System.Windows.Forms.Label labelReferentSponsor;
-        private System.Windows.Forms.Label labelContratSponsor;
-        private System.Windows.Forms.Label labelDatePaiementSponsor;
-        private System.Windows.Forms.Label labelMontantSponsor;
         private System.Windows.Forms.TextBox textBoxNomSponsor;
         private System.Windows.Forms.TextBox textBoxAdresseSponsor;
-        private System.Windows.Forms.TextBox textBoxMontantSponsor;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.ComboBox comboBox4;
-        private System.Windows.Forms.DateTimePicker dateTimePickerSponsor;
+        private System.Windows.Forms.ComboBox comboBoxResponsableSponsor;
+        private System.Windows.Forms.ComboBox comboBoxContactSponsor;
+        private System.Windows.Forms.ComboBox comboBoxReferentSponsor;
         private System.Windows.Forms.Button buttonAnnulerSponsor;
         private System.Windows.Forms.Button buttonAjouterSponsor;
+        private System.Windows.Forms.Button buttonAjouterUtilisateurSponsor;
+        private System.Windows.Forms.Button buttonAjouterContactSponsor;
+        private System.Windows.Forms.Button buttonAjouterReferentSponsor;
     }
 }

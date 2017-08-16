@@ -33,13 +33,13 @@
             this.pictureBoxLogoEmplacement = new System.Windows.Forms.PictureBox();
             this.labelEmplacements = new System.Windows.Forms.Label();
             this.dataGridViewEmplacement = new System.Windows.Forms.DataGridView();
+            this.ColumnTypeEmplacement = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnDispoEmplacement = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnTotalEmplacement = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.buttonAjouterEmplacement = new System.Windows.Forms.Button();
             this.buttonModifierEmplacement = new System.Windows.Forms.Button();
             this.buttonSupprimerEmplacement = new System.Windows.Forms.Button();
             this.buttonRetourEmplacement = new System.Windows.Forms.Button();
-            this.ColumnTypeEmplacement = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnDispoEmplacement = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnTotalEmplacement = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogoEmplacement)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewEmplacement)).BeginInit();
             this.SuspendLayout();
@@ -91,6 +91,30 @@
             this.dataGridViewEmplacement.Size = new System.Drawing.Size(1236, 450);
             this.dataGridViewEmplacement.TabIndex = 2;
             // 
+            // ColumnTypeEmplacement
+            // 
+            this.ColumnTypeEmplacement.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.ColumnTypeEmplacement.HeaderText = "Type d\'emplacement";
+            this.ColumnTypeEmplacement.Name = "ColumnTypeEmplacement";
+            this.ColumnTypeEmplacement.ReadOnly = true;
+            this.ColumnTypeEmplacement.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            // 
+            // ColumnDispoEmplacement
+            // 
+            this.ColumnDispoEmplacement.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.ColumnDispoEmplacement.HeaderText = "Nombre d\'emplacements disponible";
+            this.ColumnDispoEmplacement.Name = "ColumnDispoEmplacement";
+            this.ColumnDispoEmplacement.ReadOnly = true;
+            this.ColumnDispoEmplacement.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            // 
+            // ColumnTotalEmplacement
+            // 
+            this.ColumnTotalEmplacement.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.ColumnTotalEmplacement.HeaderText = "Nombre d\'emplacements total";
+            this.ColumnTotalEmplacement.Name = "ColumnTotalEmplacement";
+            this.ColumnTotalEmplacement.ReadOnly = true;
+            this.ColumnTotalEmplacement.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            // 
             // buttonAjouterEmplacement
             // 
             this.buttonAjouterEmplacement.Location = new System.Drawing.Point(940, 707);
@@ -135,30 +159,6 @@
             this.buttonRetourEmplacement.UseVisualStyleBackColor = true;
             this.buttonRetourEmplacement.Click += new System.EventHandler(this.buttonRetourEmplacement_Click);
             // 
-            // ColumnTypeEmplacement
-            // 
-            this.ColumnTypeEmplacement.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.ColumnTypeEmplacement.HeaderText = "Type d\'emplacement";
-            this.ColumnTypeEmplacement.Name = "ColumnTypeEmplacement";
-            this.ColumnTypeEmplacement.ReadOnly = true;
-            this.ColumnTypeEmplacement.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            // 
-            // ColumnDispoEmplacement
-            // 
-            this.ColumnDispoEmplacement.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.ColumnDispoEmplacement.HeaderText = "Nombre d\'emplacements disponible";
-            this.ColumnDispoEmplacement.Name = "ColumnDispoEmplacement";
-            this.ColumnDispoEmplacement.ReadOnly = true;
-            this.ColumnDispoEmplacement.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            // 
-            // ColumnTotalEmplacement
-            // 
-            this.ColumnTotalEmplacement.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.ColumnTotalEmplacement.HeaderText = "Nombre d\'emplacements total";
-            this.ColumnTotalEmplacement.Name = "ColumnTotalEmplacement";
-            this.ColumnTotalEmplacement.ReadOnly = true;
-            this.ColumnTotalEmplacement.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            // 
             // FormEmplacement
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -177,7 +177,7 @@
             this.MinimumSize = new System.Drawing.Size(1300, 800);
             this.Name = "FormEmplacement";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "US Esquelbecq";
+            this.Text = "US Esquelbecq - Emplacements";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogoEmplacement)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewEmplacement)).EndInit();
             this.ResumeLayout(false);

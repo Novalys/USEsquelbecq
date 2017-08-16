@@ -26,6 +26,7 @@ namespace UsEsquelbecq
         private void buttonModifierEvenement_Click(object sender, EventArgs e)
         {
             FormAjouterEvenement formModEve = new FormAjouterEvenement();
+            formModEve.Text = "Modifier un événement";
             formModEve.Controls["buttonAjouterEvenement"].Text = "Modifier";
             formModEve.ShowDialog();
         }

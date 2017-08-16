@@ -132,7 +132,7 @@
             this.MinimumSize = new System.Drawing.Size(320, 360);
             this.Name = "FormAjouterPanneau";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "US Esquelbecq";
+            this.Text = "Ajouter un panneau";
             this.ResumeLayout(false);
             this.PerformLayout();
 

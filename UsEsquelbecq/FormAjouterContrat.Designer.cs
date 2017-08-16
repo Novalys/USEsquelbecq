@@ -150,7 +150,7 @@
             this.MinimumSize = new System.Drawing.Size(360, 420);
             this.Name = "FormAjouterContrat";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "US Esquelbecq";
+            this.Text = "Ajouter un contrat";
             this.ResumeLayout(false);
             this.PerformLayout();
 

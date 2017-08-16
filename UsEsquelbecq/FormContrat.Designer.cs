@@ -195,7 +195,7 @@
             this.MinimumSize = new System.Drawing.Size(1300, 800);
             this.Name = "FormContrat";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "US Esquelbecq";
+            this.Text = "US Esquelbecq - Contrats";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewContrat)).EndInit();
             this.ResumeLayout(false);

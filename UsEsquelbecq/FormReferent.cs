@@ -26,6 +26,7 @@ namespace UsEsquelbecq
         private void buttonModifierReferent_Click(object sender, EventArgs e)
         {
             FormAjouterReferent formModRef = new FormAjouterReferent();
+            formModRef.Text = "Modifier un référent";
             formModRef.Controls["buttonAjouterReferent"].Text = "Modifier";
             formModRef.ShowDialog();
         }

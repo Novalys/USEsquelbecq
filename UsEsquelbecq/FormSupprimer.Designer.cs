@@ -78,7 +78,7 @@
             this.MinimumSize = new System.Drawing.Size(535, 180);
             this.Name = "FormSupprimer";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "US Esquelbecq";
+            this.Text = "Suppression";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -26,5 +26,23 @@ namespace UsEsquelbecq
         {
 
         }
+
+        private void buttonAjouterUtilisateurSponsor_Click(object sender, EventArgs e)
+        {
+            FormAjouterUtilisateur formAjoutUti = new FormAjouterUtilisateur();
+            formAjoutUti.ShowDialog();
+        }
+
+        private void buttonAjouterContactSponsor_Click(object sender, EventArgs e)
+        {
+            FormAjouterUtilisateur formAjoutUti = new FormAjouterUtilisateur();
+            formAjoutUti.ShowDialog();
+        }
+
+        private void buttonAjouterReferentSponsor_Click(object sender, EventArgs e)
+        {
+            FormAjouterUtilisateur formAjoutUti = new FormAjouterUtilisateur();
+            formAjoutUti.ShowDialog();
+        }
     }
 }

@@ -129,7 +129,7 @@
             this.MinimumSize = new System.Drawing.Size(480, 360);
             this.Name = "FormAjouterEmplacement";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "US Esquelbecq";
+            this.Text = "Ajouter un emplacement";
             this.ResumeLayout(false);
             this.PerformLayout();
 

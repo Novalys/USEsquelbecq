@@ -26,6 +26,7 @@ namespace UsEsquelbecq
         private void buttonModifierUtilisateur_Click(object sender, EventArgs e)
         {
             FormAjouterUtilisateur formModUti = new FormAjouterUtilisateur();
+            formModUti.Text = "Modifier un utilisateur";
             formModUti.Controls["buttonAjouterUtilisateur"].Text = "Modifier";
             formModUti.ShowDialog();
         }

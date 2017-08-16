@@ -77,6 +77,12 @@
     <Compile Include="FormAjouterReferent.Designer.cs">
       <DependentUpon>FormAjouterReferent.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormAjouterSouscription.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAjouterSouscription.Designer.cs">
+      <DependentUpon>FormAjouterSouscription.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormAjouterSponsor.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -131,6 +137,12 @@
     <Compile Include="FormReferent.Designer.cs">
       <DependentUpon>FormReferent.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormSouscriptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSouscriptions.Designer.cs">
+      <DependentUpon>FormSouscriptions.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormSponsor.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -166,6 +178,9 @@
     <EmbeddedResource Include="FormAjouterReferent.resx">
       <DependentUpon>FormAjouterReferent.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormAjouterSouscription.resx">
+      <DependentUpon>FormAjouterSouscription.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormAjouterSponsor.resx">
       <DependentUpon>FormAjouterSponsor.cs</DependentUpon>
     </EmbeddedResource>
@@ -192,6 +207,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormReferent.resx">
       <DependentUpon>FormReferent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSouscriptions.resx">
+      <DependentUpon>FormSouscriptions.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormSponsor.resx">
       <DependentUpon>FormSponsor.cs</DependentUpon>

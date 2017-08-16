@@ -33,14 +33,14 @@
             this.pictureBoxLogoPanneau = new System.Windows.Forms.PictureBox();
             this.labelPanneaux = new System.Windows.Forms.Label();
             this.dataGridViewPanneau = new System.Windows.Forms.DataGridView();
-            this.buttonAjouterPanneau = new System.Windows.Forms.Button();
-            this.buttonModifierPanneau = new System.Windows.Forms.Button();
-            this.buttonSupprimerPanneau = new System.Windows.Forms.Button();
-            this.buttonRetourPanneau = new System.Windows.Forms.Button();
             this.ColumnIdPanneau = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnNomSponsorPanneau = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnTaillePanneau = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnEtatPanneau = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.buttonAjouterPanneau = new System.Windows.Forms.Button();
+            this.buttonModifierPanneau = new System.Windows.Forms.Button();
+            this.buttonSupprimerPanneau = new System.Windows.Forms.Button();
+            this.buttonRetourPanneau = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogoPanneau)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewPanneau)).BeginInit();
             this.SuspendLayout();
@@ -93,6 +93,39 @@
             this.dataGridViewPanneau.Size = new System.Drawing.Size(1236, 450);
             this.dataGridViewPanneau.TabIndex = 2;
             // 
+            // ColumnIdPanneau
+            // 
+            this.ColumnIdPanneau.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
+            this.ColumnIdPanneau.HeaderText = "ID";
+            this.ColumnIdPanneau.Name = "ColumnIdPanneau";
+            this.ColumnIdPanneau.ReadOnly = true;
+            this.ColumnIdPanneau.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.ColumnIdPanneau.Width = 43;
+            // 
+            // ColumnNomSponsorPanneau
+            // 
+            this.ColumnNomSponsorPanneau.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.ColumnNomSponsorPanneau.HeaderText = "Sponsor";
+            this.ColumnNomSponsorPanneau.Name = "ColumnNomSponsorPanneau";
+            this.ColumnNomSponsorPanneau.ReadOnly = true;
+            this.ColumnNomSponsorPanneau.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            // 
+            // ColumnTaillePanneau
+            // 
+            this.ColumnTaillePanneau.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.ColumnTaillePanneau.HeaderText = "Taille";
+            this.ColumnTaillePanneau.Name = "ColumnTaillePanneau";
+            this.ColumnTaillePanneau.ReadOnly = true;
+            this.ColumnTaillePanneau.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            // 
+            // ColumnEtatPanneau
+            // 
+            this.ColumnEtatPanneau.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.ColumnEtatPanneau.HeaderText = "État";
+            this.ColumnEtatPanneau.Name = "ColumnEtatPanneau";
+            this.ColumnEtatPanneau.ReadOnly = true;
+            this.ColumnEtatPanneau.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            // 
             // buttonAjouterPanneau
             // 
             this.buttonAjouterPanneau.Location = new System.Drawing.Point(940, 707);
@@ -133,39 +166,6 @@
             this.buttonRetourPanneau.UseVisualStyleBackColor = true;
             this.buttonRetourPanneau.Click += new System.EventHandler(this.buttonRetourPanneau_Click);
             // 
-            // ColumnIdPanneau
-            // 
-            this.ColumnIdPanneau.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            this.ColumnIdPanneau.HeaderText = "ID";
-            this.ColumnIdPanneau.Name = "ColumnIdPanneau";
-            this.ColumnIdPanneau.ReadOnly = true;
-            this.ColumnIdPanneau.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.ColumnIdPanneau.Width = 43;
-            // 
-            // ColumnNomSponsorPanneau
-            // 
-            this.ColumnNomSponsorPanneau.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.ColumnNomSponsorPanneau.HeaderText = "Sponsor";
-            this.ColumnNomSponsorPanneau.Name = "ColumnNomSponsorPanneau";
-            this.ColumnNomSponsorPanneau.ReadOnly = true;
-            this.ColumnNomSponsorPanneau.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            // 
-            // ColumnTaillePanneau
-            // 
-            this.ColumnTaillePanneau.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.ColumnTaillePanneau.HeaderText = "Taille";
-            this.ColumnTaillePanneau.Name = "ColumnTaillePanneau";
-            this.ColumnTaillePanneau.ReadOnly = true;
-            this.ColumnTaillePanneau.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            // 
-            // ColumnEtatPanneau
-            // 
-            this.ColumnEtatPanneau.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.ColumnEtatPanneau.HeaderText = "État";
-            this.ColumnEtatPanneau.Name = "ColumnEtatPanneau";
-            this.ColumnEtatPanneau.ReadOnly = true;
-            this.ColumnEtatPanneau.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            // 
             // FormPanneau
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -184,7 +184,7 @@
             this.MinimumSize = new System.Drawing.Size(1300, 800);
             this.Name = "FormPanneau";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "US Esquelbecq";
+            this.Text = "US Esquelbecq - Panneaux";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogoPanneau)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewPanneau)).EndInit();
             this.ResumeLayout(false);

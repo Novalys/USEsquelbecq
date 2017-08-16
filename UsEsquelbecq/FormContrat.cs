@@ -26,6 +26,7 @@ namespace UsEsquelbecq
         private void buttonModifierContrat_Click(object sender, EventArgs e)
         {
             FormAjouterContrat formModCont = new FormAjouterContrat();
+            formModCont.Text = "Modifier un contrat";
             formModCont.Controls["buttonAjouterContrat"].Text = "Modifier";
             formModCont.ShowDialog();
         }

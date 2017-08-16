@@ -26,6 +26,7 @@ namespace UsEsquelbecq
         private void buttonModifierSponsor_Click(object sender, EventArgs e)
         {
             FormAjouterSponsor formModSpon = new FormAjouterSponsor();
+            formModSpon.Text = "Modifier un sponsor";
             formModSpon.Controls["buttonAjouterSponsor"].Text = "Modifier";
             formModSpon.ShowDialog();
         }
@@ -39,6 +40,12 @@ namespace UsEsquelbecq
         private void buttonRetourSponsor_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void buttonSouscriptionContrat_Click(object sender, EventArgs e)
+        {
+            FormSouscriptions formSous = new FormSouscriptions();
+            formSous.ShowDialog();
         }
     }
 }

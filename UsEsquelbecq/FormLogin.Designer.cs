@@ -125,7 +125,7 @@ namespace UsEsquelbecq
             this.MinimumSize = new System.Drawing.Size(1300, 800);
             this.Name = "FormLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "US Esquelbecq";
+            this.Text = "US Esquelbecq - Connexion";
             this.Load += new System.EventHandler(this.FormLogin_Load);
             ((System.ComponentModel.ISupportInitialize)(this.Logo)).EndInit();
             this.panelLogin.ResumeLayout(false);

@@ -26,6 +26,7 @@ namespace UsEsquelbecq
         private void buttonModifierPanneau_Click(object sender, EventArgs e)
         {
             FormAjouterPanneau formModPan = new FormAjouterPanneau();
+            formModPan.Text = "Modifier un panneau";
             formModPan.Controls["buttonAjouterPanneau"].Text = "Modifier";
             formModPan.ShowDialog();
         }

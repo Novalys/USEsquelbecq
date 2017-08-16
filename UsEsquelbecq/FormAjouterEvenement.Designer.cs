@@ -153,7 +153,7 @@
             this.MinimumSize = new System.Drawing.Size(320, 420);
             this.Name = "FormAjouterEvenement";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "US Esquelbecq";
+            this.Text = "Ajouter un événement";
             this.ResumeLayout(false);
             this.PerformLayout();
 

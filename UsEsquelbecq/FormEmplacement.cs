@@ -26,6 +26,7 @@ namespace UsEsquelbecq
         private void buttonModifierEmplacement_Click(object sender, EventArgs e)
         {
             FormAjouterEmplacement formModEmp = new FormAjouterEmplacement();
+            formModEmp.Text = "Modifier un emplacement";
             formModEmp.Controls["buttonAjouterEmplacement"].Text = "Modifier";
             formModEmp.ShowDialog();
         }
