@@ -22,9 +22,11 @@ C:\Users\flori\documents\visual studio 2017\Projects\UsEsquelbecq\UsEsquelbecq\o
 C:\Users\flori\documents\visual studio 2017\Projects\UsEsquelbecq\UsEsquelbecq\obj\Debug\UsEsquelbecq.FormAjouterSponsor.resources
 C:\Users\flori\documents\visual studio 2017\Projects\UsEsquelbecq\UsEsquelbecq\obj\Debug\UsEsquelbecq.FormAjouterPanneau.resources
 C:\Users\flori\documents\visual studio 2017\Projects\UsEsquelbecq\UsEsquelbecq\obj\Debug\UsEsquelbecq.FormAjouterEmplacement.resources
-C:\Users\flori\documents\visual studio 2017\Projects\UsEsquelbecq\UsEsquelbecq\obj\Debug\UsEsquelbecq.FormEvenement.resources
-C:\Users\flori\documents\visual studio 2017\Projects\UsEsquelbecq\UsEsquelbecq\obj\Debug\UsEsquelbecq.FormAjouterEvenement.resources
 C:\Users\flori\documents\visual studio 2017\Projects\UsEsquelbecq\UsEsquelbecq\obj\Debug\UsEsquelbecq.FormAjouterReferent.resources
 C:\Users\flori\documents\visual studio 2017\Projects\UsEsquelbecq\UsEsquelbecq\obj\Debug\UsEsquelbecq.FormReferent.resources
 C:\Users\flori\documents\visual studio 2017\Projects\UsEsquelbecq\UsEsquelbecq\obj\Debug\UsEsquelbecq.FormAjouterSouscription.resources
 C:\Users\flori\documents\visual studio 2017\Projects\UsEsquelbecq\UsEsquelbecq\obj\Debug\UsEsquelbecq.FormSouscriptions.resources
+C:\Users\flori\documents\visual studio 2017\Projects\UsEsquelbecq\UsEsquelbecq\obj\Debug\UsEsquelbecq.FormAjouterParticipation.resources
+C:\Users\flori\documents\visual studio 2017\Projects\UsEsquelbecq\UsEsquelbecq\obj\Debug\UsEsquelbecq.FormParticipation.resources
+C:\Users\flori\documents\visual studio 2017\Projects\UsEsquelbecq\UsEsquelbecq\obj\Debug\UsEsquelbecq.FormAjouterEvenement.resources
+C:\Users\flori\documents\visual studio 2017\Projects\UsEsquelbecq\UsEsquelbecq\obj\Debug\UsEsquelbecq.FormEvenement.resources

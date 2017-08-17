@@ -17,10 +17,10 @@ namespace UsEsquelbecq
             InitializeComponent();
         }
 
-        private void buttonEvenement_Click(object sender, EventArgs e)
+        private void buttonParticipation_Click(object sender, EventArgs e)
         {
-            FormEvenement formEve = new FormEvenement();
-            formEve.ShowDialog();
+            FormParticipation formPar = new FormParticipation();
+            formPar.ShowDialog();
         }
 
         private void buttonUtilisateur_Click(object sender, EventArgs e)

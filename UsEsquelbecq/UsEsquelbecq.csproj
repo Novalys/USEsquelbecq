@@ -65,6 +65,12 @@
     <Compile Include="FormAjouterEvenement.Designer.cs">
       <DependentUpon>FormAjouterEvenement.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormAjouterParticipation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAjouterParticipation.Designer.cs">
+      <DependentUpon>FormAjouterParticipation.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormAjouterPanneau.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -107,11 +113,11 @@
     <Compile Include="FormEmplacement.Designer.cs">
       <DependentUpon>FormEmplacement.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormEvenement.cs">
+    <Compile Include="FormParticipation.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormEvenement.Designer.cs">
-      <DependentUpon>FormEvenement.cs</DependentUpon>
+    <Compile Include="FormParticipation.Designer.cs">
+      <DependentUpon>FormParticipation.cs</DependentUpon>
     </Compile>
     <Compile Include="FormLogin.cs">
       <SubType>Form</SubType>
@@ -155,6 +161,12 @@
     <Compile Include="FormSupprimer.Designer.cs">
       <DependentUpon>FormSupprimer.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormEvenement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEvenement.Designer.cs">
+      <DependentUpon>FormEvenement.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormUtilisateur.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -171,6 +183,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormAjouterEvenement.resx">
       <DependentUpon>FormAjouterEvenement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAjouterParticipation.resx">
+      <DependentUpon>FormAjouterParticipation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormAjouterPanneau.resx">
       <DependentUpon>FormAjouterPanneau.cs</DependentUpon>
@@ -193,8 +208,8 @@
     <EmbeddedResource Include="FormEmplacement.resx">
       <DependentUpon>FormEmplacement.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormEvenement.resx">
-      <DependentUpon>FormEvenement.cs</DependentUpon>
+    <EmbeddedResource Include="FormParticipation.resx">
+      <DependentUpon>FormParticipation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
@@ -216,6 +231,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormSupprimer.resx">
       <DependentUpon>FormSupprimer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEvenement.resx">
+      <DependentUpon>FormEvenement.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormUtilisateur.resx">
       <DependentUpon>FormUtilisateur.cs</DependentUpon>

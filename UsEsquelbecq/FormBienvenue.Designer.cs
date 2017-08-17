@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormBienvenue));
-            this.buttonEvenement = new System.Windows.Forms.Button();
+            this.buttonParticipation = new System.Windows.Forms.Button();
             this.buttonUtilisateur = new System.Windows.Forms.Button();
             this.buttonContrat = new System.Windows.Forms.Button();
             this.buttonSponsor = new System.Windows.Forms.Button();
@@ -40,18 +40,18 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMiniLogo)).BeginInit();
             this.SuspendLayout();
             // 
-            // buttonEvenement
+            // buttonParticipation
             // 
-            this.buttonEvenement.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonEvenement.BackgroundImage")));
-            this.buttonEvenement.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(58)))), ((int)(((byte)(129)))));
-            this.buttonEvenement.Location = new System.Drawing.Point(35, 213);
-            this.buttonEvenement.Name = "buttonEvenement";
-            this.buttonEvenement.Size = new System.Drawing.Size(380, 250);
-            this.buttonEvenement.TabIndex = 0;
-            this.buttonEvenement.Text = "buttonEvenement";
-            this.buttonEvenement.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.buttonEvenement.UseVisualStyleBackColor = true;
-            this.buttonEvenement.Click += new System.EventHandler(this.buttonEvenement_Click);
+            this.buttonParticipation.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonParticipation.BackgroundImage")));
+            this.buttonParticipation.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(58)))), ((int)(((byte)(129)))));
+            this.buttonParticipation.Location = new System.Drawing.Point(35, 213);
+            this.buttonParticipation.Name = "buttonParticipation";
+            this.buttonParticipation.Size = new System.Drawing.Size(380, 250);
+            this.buttonParticipation.TabIndex = 0;
+            this.buttonParticipation.Text = "buttonParticipation";
+            this.buttonParticipation.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.buttonParticipation.UseVisualStyleBackColor = true;
+            this.buttonParticipation.Click += new System.EventHandler(this.buttonParticipation_Click);
             // 
             // buttonUtilisateur
             // 
@@ -154,7 +154,7 @@
             this.Controls.Add(this.buttonSponsor);
             this.Controls.Add(this.buttonContrat);
             this.Controls.Add(this.buttonUtilisateur);
-            this.Controls.Add(this.buttonEvenement);
+            this.Controls.Add(this.buttonParticipation);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximumSize = new System.Drawing.Size(1300, 800);
             this.MinimumSize = new System.Drawing.Size(1300, 800);
@@ -169,7 +169,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button buttonEvenement;
+        private System.Windows.Forms.Button buttonParticipation;
         private System.Windows.Forms.Button buttonUtilisateur;
         private System.Windows.Forms.Button buttonContrat;
         private System.Windows.Forms.Button buttonSponsor;
