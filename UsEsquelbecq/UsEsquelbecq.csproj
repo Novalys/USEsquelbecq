@@ -47,6 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DBConnexion.cs" />
+    <Compile Include="FormAdministration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAdministration.Designer.cs">
+      <DependentUpon>FormAdministration.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormAjouterContrat.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,6 +119,12 @@
     <Compile Include="FormEmplacement.Designer.cs">
       <DependentUpon>FormEmplacement.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormMDP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMDP.Designer.cs">
+      <DependentUpon>FormMDP.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormParticipation.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -175,6 +187,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormAdministration.resx">
+      <DependentUpon>FormAdministration.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormAjouterContrat.resx">
       <DependentUpon>FormAjouterContrat.cs</DependentUpon>
     </EmbeddedResource>
@@ -207,6 +222,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormEmplacement.resx">
       <DependentUpon>FormEmplacement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMDP.resx">
+      <DependentUpon>FormMDP.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormParticipation.resx">
       <DependentUpon>FormParticipation.cs</DependentUpon>

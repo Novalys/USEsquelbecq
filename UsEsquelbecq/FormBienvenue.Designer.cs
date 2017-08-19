@@ -37,6 +37,7 @@
             this.buttonEmplacement = new System.Windows.Forms.Button();
             this.labelBienvenue = new System.Windows.Forms.Label();
             this.pictureBoxMiniLogo = new System.Windows.Forms.PictureBox();
+            this.buttonAdministration = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMiniLogo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -141,12 +142,27 @@
             this.pictureBoxMiniLogo.TabIndex = 7;
             this.pictureBoxMiniLogo.TabStop = false;
             // 
+            // buttonAdministration
+            // 
+            this.buttonAdministration.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonAdministration.BackgroundImage")));
+            this.buttonAdministration.Font = new System.Drawing.Font("Microsoft Sans Serif", 1.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonAdministration.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(58)))), ((int)(((byte)(129)))));
+            this.buttonAdministration.Location = new System.Drawing.Point(1003, 24);
+            this.buttonAdministration.Name = "buttonAdministration";
+            this.buttonAdministration.Size = new System.Drawing.Size(250, 60);
+            this.buttonAdministration.TabIndex = 8;
+            this.buttonAdministration.Text = "buttonAdministration";
+            this.buttonAdministration.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.buttonAdministration.UseVisualStyleBackColor = true;
+            this.buttonAdministration.Click += new System.EventHandler(this.buttonAdministration_Click);
+            // 
             // FormBienvenue
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(226)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(1284, 761);
+            this.Controls.Add(this.buttonAdministration);
             this.Controls.Add(this.pictureBoxMiniLogo);
             this.Controls.Add(this.labelBienvenue);
             this.Controls.Add(this.buttonEmplacement);
@@ -177,5 +193,6 @@
         private System.Windows.Forms.Button buttonEmplacement;
         private System.Windows.Forms.Label labelBienvenue;
         private System.Windows.Forms.PictureBox pictureBoxMiniLogo;
+        private System.Windows.Forms.Button buttonAdministration;
     }
 }

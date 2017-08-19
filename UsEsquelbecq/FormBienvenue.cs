@@ -52,5 +52,11 @@ namespace UsEsquelbecq
             FormEmplacement formEmp = new FormEmplacement();
             formEmp.ShowDialog();
         }
+
+        private void buttonAdministration_Click(object sender, EventArgs e)
+        {
+            FormAdministration formAdmin = new FormAdministration();
+            formAdmin.ShowDialog();
+        }
     }
 }
